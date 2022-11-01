@@ -1,2 +1,2 @@
-#Linear Data Structure of an Array
-array=[2,3,5,6,7]
+#Arrays are containers which are able to store more than one item
+#at the same time
