@@ -117,4 +117,4 @@ print(arr.pop(2))
 print("The array after popping is : ", end="")
 for i in range(0, 4):
     print(arr[i], end=" ")
-
+print("")
