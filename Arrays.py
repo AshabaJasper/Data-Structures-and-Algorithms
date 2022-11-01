@@ -10,11 +10,11 @@
 import array
 
 #create and array with
-a = array.array('i', [1, 2, 3])
+a = array.array('i', [1, 2, 3,4])
 
 # printing original array
 print("The new created array is : ")
-for i in range(0, 3):
-    print(a[i], end=",")
-print()
+for i in range(0, len(a)):
+    print(a[i], end="")
+
 
