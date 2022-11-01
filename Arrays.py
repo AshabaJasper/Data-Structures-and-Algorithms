@@ -89,7 +89,7 @@ print()
 b.append(4.4)
 
 print("Array after insertion : ", end=" ")
-for i in (b):
+for i in b:
     print(i, end=" ")
 print()
 print("-----------------")
