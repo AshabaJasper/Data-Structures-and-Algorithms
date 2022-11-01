@@ -25,13 +25,22 @@ print() #for the purposes of skipping a line
 #array indexing
 import array as arr
 
+#syntax of array module:
+# {variable=array.array("unicode_character",[array elements]")
 my_array=arr.array("i",[12,13,24,25,56])
 
 print(my_array)
 print(my_array[0]) #accesses the first element
 print(my_array[-1]) #accesses the last element
 
+#searching through an array
 
+from array import *
 
+my_second_array=arr.array('d',[9,23,45,6,5])
+
+#returns the index of the element
+#syntax, array_name.index(element)
+print(my_second_array.index(23))
 
 
