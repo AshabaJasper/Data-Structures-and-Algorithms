@@ -8,13 +8,18 @@
 
 #method one:
 import array
+#can be used as #import array as arr
+#from array import *
 
 #create and array with
 a = array.array('i', [1, 2, 3,4])
 
+
 # printing original array
 print("The new created array is : ")
 for i in range(0, len(a)):
-    print(a[i], end="")
+    print(a[i], end=" ")
+
+
 
 
