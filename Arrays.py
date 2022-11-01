@@ -14,11 +14,23 @@ import array
 #create and array with
 a = array.array('i', [1, 2, 3,4])
 
+print(a)
 
 # printing original array
 print("The new created array is : ")
 for i in range(0, len(a)):
     print(a[i], end=" ")
+print() #for the purposes of skipping a line
+
+#array indexing
+import array as arr
+
+my_array=arr.array("i",[12,13,24,25,56])
+
+print(my_array)
+print(my_array[0]) #accesses the first element
+print(my_array[-1]) #accesses the last element
+
 
 
 
