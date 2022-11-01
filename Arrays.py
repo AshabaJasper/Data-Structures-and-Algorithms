@@ -107,7 +107,7 @@ print("The new created array is : ", end="")
 for i in range(0, 5):
     print(arr[i], end=" ")
 
-print("\r")
+
 
 # using pop() to remove element at 2nd position
 print("The popped element is : ", end="")
@@ -118,4 +118,3 @@ print("The array after popping is : ", end="")
 for i in range(0, 4):
     print(arr[i], end=" ")
 
-print("\r")
