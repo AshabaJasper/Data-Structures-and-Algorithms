@@ -12,7 +12,7 @@ import array
 #from array import *
 
 #create and array with
-a = array.array('i', [1, 2, 3,4])
+a = array.array('i', [1, 2, 3,4,5])
 
 print(a)
 
